@@ -41,7 +41,7 @@ elif direction == "left":
         else:
             print("wrong command")
     elif swim == "swim":
-        print("Attached by trout.  GAME OVER !!!")
+        print("Attacked by trout.  GAME OVER !!!")
     else:
         print("wrong command")
 else:
