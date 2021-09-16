@@ -1,3 +1,3 @@
  ----   Python Pro Bootcamp --- 
 
-The Journery from a begineer to Python professional 
+The Journery from Begineer to Python Professional 
