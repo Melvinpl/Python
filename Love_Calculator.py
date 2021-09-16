@@ -53,4 +53,10 @@ print(f"V occurs {V} times\n")
 print(f"E occurs {E} times\n")
 print(f"Total = {love_total}\n")
 
-print(f"Your score is : {Your_score}")
+Your_score = int(Your_score)
+if Your_score < 10 and Your_score > 90:
+    print(f"Your score is : {Your_score}, you go together like coke and mentos.")
+elif Your_score < 50 and Your_score > 40:
+    print(f"Your score is {Your_score}, you are alright together.")
+else:
+    print(f"Your score is : {Your_score}")
