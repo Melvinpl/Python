@@ -7,9 +7,9 @@ student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
   student_heights[n] = int(student_heights[n])
 
-n = 0
-for n in range(0, len(student_heights)):
-    total = n+1
+total = 0
+for n in student_heights:
+    total += 1
 print (f"Total students = {total}")
 
 sum = 0
