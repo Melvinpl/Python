@@ -82,6 +82,9 @@ def game():
             computer_score = calculate_score(computer_cards)
             game_ended = check(user_score)
         if play == 'n':
+            while computer_score != 0 and computer_score < 17:
+                computer_cards.append(random.choice(cards))
+                computer_score = calculate_score(computer_cards)
             if user_score == computer_score and user_score > 21:
                 print(f"Your Final hand: {user_cards} , final score:{user_score}")
                 print(f"Computer's Final hand: {computer_cards} , final score:{computer_score}")
